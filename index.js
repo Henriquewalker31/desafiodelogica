@@ -7,7 +7,7 @@ var nivelHeroi;
 
 // Utilizando switch case para classificar o nível do herói com base na XP
 switch(true) {
-    case (xpHeroi < 1000):
+    case (xpHeroi <= 1000):
         nivelHeroi = "Ferro";
         break;
     case (xpHeroi >= 1001 && xpHeroi <= 2000):
